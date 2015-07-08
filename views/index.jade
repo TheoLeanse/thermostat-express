@@ -1,16 +1,14 @@
 extends layout
 
 block content
-  //h1= title
-  //p Welcome to #{title}
   #temperature
   button#up up
   button#down down
   button#reset reset
   input#powersaver(type='checkbox',checked)
   'Power Save On'
-  p the temperature in
+  p The temperature in
     span#location
-    is
+    |  is
     span#locationTemp
-    degrees C.
+    |  degrees C.
