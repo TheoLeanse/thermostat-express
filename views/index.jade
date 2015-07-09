@@ -1,15 +1,17 @@
 extends layout
 
 block content
-  #temperature
+  h2#temperature
   button#up up
   button#down down
   button#reset reset
   input#powersaver(type='checkbox',checked)
   | Power Save On
+  br
   p The temperature in
     span#location
     |  is
     span#locationTemp
     |  degrees C.
-  a(href='/test') hi
+  br
+  a(href='/test') Test

@@ -13,6 +13,7 @@ updateDisplay(); // window.onload ...?
 $('#up').click(function() {
   thermostat.increase();
   updateDisplay();
+  // send a $.post() thing to the server in order to update the temperature value saved in the session.
 });
 
 $('#down').click(function() {

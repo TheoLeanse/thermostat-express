@@ -28,6 +28,7 @@ function getWeather(latitude, longitude) {
     getTemp  = data.main.temp;
     var temp = Math.round(getTemp - 272.15);
     $('span#locationTemp').html(temp);
+
     // other weather facts?
     // representative piccies / graphics?
     // control the default temp for our thermostat?
